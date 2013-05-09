@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package version="1.0">
+	<AppVersion>@VERSION@</AppVersion>
+	<locale>zh-TW</locale>
+	<packageUrl>http://download.myfirefox.com.tw/releases/full/latest/zh-TW/Firefox-full-latest.exe</packageUrl>
+	<resUrl>http://download.myfirefox.com.tw/releases/webins3.0/latest/res/official/zh-TW/res.7z</resUrl>
+	<extUrl>http://download.myfirefox.com.tw/addons/webins/latest/full/popular/myextensions.7z</extUrl>
+	<setup rebuild="1">
+	<scriptDir>scripts/taiwan</scriptDir>
+	</setup>
+	<distribution bundle="1"></distribution>
+	<template>template</template>
+	<Addons>
+		<hidden>
+			<addon>
+				<id>tpmanager@mozillaonline.com</id>
+				<branch>master</branch>
+			</addon>
+			<addon>
+				<id>twhomepage@mozillaonline.com</id>
+				<branch>master</branch>
+			</addon>
+		</hidden>
+		<default>
+			<addon>
+				<id>quicklaunch@mozillaonline.com</id>
+				<branch>master</branch>
+			</addon>
+			<addon>
+				<id>fx-improvement@mozillaonline.com</id>
+				<branch>master</branch>
+			</addon>
+			<addon>
+				<id>tabimprovelite@mozillaonline.com</id>
+				<branch>master</branch>
+			</addon>
+			<addon>
+				<id>easyscreenshot@mozillaonline.com</id>
+				<branch>master</branch>
+			</addon>
+		</default>
+		<other>
+			<addon>
+				<id>fontsetter@mozillaonline.com</id>
+				<branch>master</branch>
+			</addon>
+			<addon>
+				<id>personas@christopher.beard</id>
+				<branch>0</branch>
+			</addon>
+			<addon>
+				<id>zoompanel@mozillaonline.com</id>
+				<branch>master</branch>
+			</addon>
+		</other>
+	</Addons>
+</Package>

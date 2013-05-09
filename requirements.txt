@@ -1,0 +1,16 @@
+# color output
+colorama
+
+# ini file
+configobj
+configparser
+
+# extensions.xml
+jinja2
+
+# sign update.rdf, sulu & its dependencies
+lxml
+M2Crypto
+pyasn1
+rdflib==3.1.0 # due to http://git.io/fEGivA
+sulu

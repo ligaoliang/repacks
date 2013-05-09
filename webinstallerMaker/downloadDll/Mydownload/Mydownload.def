@@ -1,0 +1,12 @@
+LIBRARY	"Mydownload"
+
+EXPORTS   
+				fnInitial
+				fnDownloadResFiles
+                fnDownload
+				fnMyDownloadProgress
+				fnCancelDownload				
+                fnExecuteCmd
+                fnShowConfigurableUI
+                fnMoveExtensionFiles  
+                fndownloadThirdPartyFiles          

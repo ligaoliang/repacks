@@ -1,0 +1,9 @@
+import os
+
+from datetime import datetime, timedelta
+
+today = datetime.today()
+today = datetime.strftime(today, '%Y%m%d')
+
+# Releases is mounted as network drive at x:
+DEPLOY_DIR = os.path.join('x:', today)

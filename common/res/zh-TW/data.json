@@ -1,0 +1,112 @@
+{
+  "tpmanager@mozillaonline.com": {
+    "unpacked": "false"
+  },
+  "twhomepage@mozillaonline.com": {
+    "unpacked": "true"
+  },
+  "quicklaunch@mozillaonline.com": {
+    "name": "Firefox 捷徑",
+    "picture": "icon04.bmp",
+    "intro1": "Firefox 捷徑讓您輕鬆啟動記事本",
+    "intro2": "、小畫家、小算盤並自訂常用的系",
+    "intro3": "統工具。",
+    "intro4": "",
+    "unpacked": "false",
+    "url": "",
+    "cmd": "",
+    "type": 2,
+    "id": "tw886004"
+  },
+  "tabimprovelite@mozillaonline.com": {
+    "name": "分頁管理器",
+    "picture": "icon05.bmp",
+    "intro1": "在目前開啟的分頁標籤右側開啟新",
+    "intro2": "分頁，雙擊關閉分頁。並在右側添",
+    "intro3": "加新分頁按钮。並可設置在新分頁",
+    "intro4": "打開URL和搜尋结果。",
+    "unpacked": "false",
+    "url": "",
+    "cmd": "",
+    "type": 2,
+    "id": "tw886005"
+  },
+  "fontsetter@mozillaonline.com": {
+    "name": "字體設定",
+    "picture": "icon07.bmp",
+    "intro1": "一鍵切換目錄和網頁内容的字體。",
+    "intro2": "",
+    "intro3": "",
+    "intro4": "",
+    "unpacked": "false",
+    "url": "",
+    "cmd": "",
+    "type": 2,
+    "id": "tw886007"
+  },
+  "zoompanel@mozillaonline.com": {
+    "name": "快速縮放",
+    "picture": "icon06.bmp",
+    "intro1": "使用快捷鍵之外的選擇。",
+    "intro2": "",
+    "intro3": "",
+    "intro4": "",
+    "unpacked": "false",
+    "url": "",
+    "cmd": "",
+    "type": 2,
+    "id": "tw886006"
+  },
+  "personas@christopher.beard": {
+    "name": "Personas Plus",
+    "picture": "icon08.bmp",
+    "intro1": "提供多款最新精選的瀏覽器佈",
+    "intro2": "景主題，定期更新，讓您方便",
+    "intro3": "為Firefox 作不同的裝扮。",
+    "intro4": "",
+    "unpacked": "false",
+    "url": "",
+    "cmd": "",
+    "type": 2,
+    "id": "tw886008"
+  },
+  "gmailnotifier@mozillaonline.com": {
+    "name": "郵件提醒",
+    "picture": "icon18.bmp",
+    "intro1": "檢查您的郵件帳戶並提醒您新",
+    "intro2": "進郵件的數量。",
+    "intro3": "",
+    "intro4": "",
+    "unpacked": "false",
+    "url": "",
+    "cmd": "",
+    "type": 2,
+    "id": "tw886018"
+  },
+  "easyscreenshot@mozillaonline.com": {
+    "name": "網頁截圖",
+    "picture": "icon20.bmp",
+    "intro1": "可以將整個網頁畫面輕鬆地擷取",
+    "intro2": "成一個圖檔，是台灣版 Firefox",
+    "intro3": "最受歡迎的功能之一。",
+    "intro4": "",
+    "unpacked": "false",
+    "url": "",
+    "cmd": "",
+    "type": 2,
+    "id": "tw886020"
+  },
+  "fx-improvement@mozillaonline.com": {
+    "name": "火狐工具集",
+    "picture": "icon21.bmp",
+    "intro1": "提升使用者體驗的新功能：意見",
+    "intro2": "回饋、書籤管理、隱私瀏覽模式",
+    "intro3": "、網站安全標誌、恢復先前關閉",
+    "intro4": "的網頁、清除歷史紀錄等。",
+    "unpacked": "false",
+    "url": "",
+    "cmd": "",
+    "type": 2,
+    "id": "tw886021"
+  }
+}

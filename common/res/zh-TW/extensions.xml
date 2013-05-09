@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<resUrl>http://download.myfirefox.com.tw/releases/webins3.0/res/official/zh-TW/res.7z</resUrl>
+	<default>{% for ext in hidden %}
+		<extension>
+			<file>{{ ext.file }}</file>
+			<unpacked>{{ ext.unpacked }}</unpacked>
+		</extension>{% endfor %}
+	</default>
+	<group>
+		<groupInfo>
+			<discription>推薦附加元件</discription>
+			<picture>default.bmp</picture>
+			<intro1>精選最常用的附加元件，幫您提升</intro1>
+			<intro2>網路瀏覽體驗。</intro2>
+			<intro3></intro3>
+			<intro4></intro4>
+			<selected>true</selected>
+		</groupInfo>
+		<extensions>{% for ext in default %}
+			<extension>
+				<name>{{ ext.name }}</name>
+				<file>{{ ext.file }}</file>
+				<picture>{{ ext.picture }}</picture>
+				<intro1>{{ ext.intro1 }}</intro1>
+				<intro2>{{ ext.intro2 }}</intro2>
+				<intro3>{{ ext.intro3 }}</intro3>
+				<intro4>{{ ext.intro4 }}</intro4>
+				<selected>true</selected>
+				<unpacked>{{ ext.unpacked }}</unpacked>
+				<url></url>
+				<cmd></cmd>
+				<type>{{ ext.type }}</type>
+				<id>{{ ext.id }}</id>
+			</extension>{% endfor %}
+		</extensions>
+	</group>
+	<group>
+		<groupInfo>
+			<discription>自選附加元件</discription>
+			<picture>other.bmp</picture>
+			<intro1>Firefox推薦的精選附加元件。</intro1>
+			<intro2></intro2>
+			<intro3></intro3>
+			<intro4></intro4>
+			<selected>false</selected>
+		</groupInfo>
+		<extensions>{% for ext in other %}
+			<extension>
+				<name>{{ ext.name }}</name>
+				<file>{{ ext.file }}</file>
+				<picture>{{ ext.picture }}</picture>
+				<intro1>{{ ext.intro1 }}</intro1>
+				<intro2>{{ ext.intro2 }}</intro2>
+				<intro3>{{ ext.intro3 }}</intro3>
+				<intro4>{{ ext.intro4 }}</intro4>
+				<selected>false</selected>
+				<unpacked>{{ ext.unpacked }}</unpacked>
+				<url></url>
+				<cmd></cmd>
+				<type>{{ ext.type }}</type>
+				<id>{{ ext.id }}</id>
+			</extension>{% endfor %}
+		</extensions>
+	</group>
+</config>
+

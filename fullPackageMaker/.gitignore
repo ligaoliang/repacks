@@ -1,0 +1,5 @@
+mo-config.nsh
+build/*
+out/*
+null
+

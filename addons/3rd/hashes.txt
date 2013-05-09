@@ -1,0 +1,1 @@
+personas@christopher.beard/latest.xpi sha256:5b0c430353f4454670c35b4d2e4ac80d0816a50345b48c3df6878946550d154b

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mydownload", "Mydownload\Mydownload.vcproj", "{1A7AB8D8-333C-40A6-B896-F6DF63C38F0E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MydownloadTest", "MydownloadTest\MydownloadTest.vcproj", "{047DC9AE-F745-4E9D-B8B5-ADB707598314}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A7AB8D8-333C-40A6-B896-F6DF63C38F0E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1A7AB8D8-333C-40A6-B896-F6DF63C38F0E}.Debug|Win32.Build.0 = Debug|Win32
+		{1A7AB8D8-333C-40A6-B896-F6DF63C38F0E}.Release|Win32.ActiveCfg = Release|Win32
+		{1A7AB8D8-333C-40A6-B896-F6DF63C38F0E}.Release|Win32.Build.0 = Release|Win32
+		{047DC9AE-F745-4E9D-B8B5-ADB707598314}.Debug|Win32.ActiveCfg = Debug|Win32
+		{047DC9AE-F745-4E9D-B8B5-ADB707598314}.Debug|Win32.Build.0 = Debug|Win32
+		{047DC9AE-F745-4E9D-B8B5-ADB707598314}.Release|Win32.ActiveCfg = Release|Win32
+		{047DC9AE-F745-4E9D-B8B5-ADB707598314}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
